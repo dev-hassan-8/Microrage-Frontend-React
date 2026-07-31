@@ -49,8 +49,9 @@
                     "href": "/ai-machine-learning"
                 },
                 { "label": "IoT Solutions", 
-                    "href": "iot-solutions"
+                    "href": "/iot-solutions"
                  },
+
                 {
                     "label": "Strategic Consultancy",
                     "href": "/strategic-consultancy"
