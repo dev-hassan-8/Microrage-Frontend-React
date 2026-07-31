@@ -336,7 +336,6 @@
 
 @media (max-width: 576px) {
     .ai-features-grid {
-        grid-template-columns: 1fr;
         gap: 10px;
         margin-top: 36px;
     }
