@@ -1,0 +1,413 @@
+.mobile-hero {
+    background: #ffffff;
+    width: 100%;
+    overflow: hidden;
+}
+
+.mobile-hero-container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 80px 34px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 65px;
+}
+
+.mobile-hero-left {
+    flex: 1;
+    max-width: 620px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.mobile-hero-title {
+    font-family: var(
+        --font-display,
+        "Inter",
+        -apple-system,
+        BlinkMacSystemFont,
+        sans-serif
+    );
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 1.15;
+    color: #1e2432;
+    margin: 0;
+    letter-spacing: -0.02em;
+}
+
+.mobile-hero-highlight {
+    color: #9ac32d;
+}
+
+.mobile-hero-description {
+    font-size: 15px;
+    line-height: 1.5;
+    color: black;
+    max-width: 620px;
+    margin-top: 28px;
+    margin-bottom: 0;
+}
+
+.mobile-hero-buttons {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-top: 36px;
+}
+
+.mobile-hero-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 58px;
+    padding: 0 40px;
+    border-radius: 8px;
+    font-size: 13px;
+    font-weight: 600;
+    text-decoration: none;
+    white-space: nowrap;
+    cursor: pointer;
+    border: none;
+    transition: all 0.3s ease;
+}
+
+.mobile-hero-btn:hover {
+    transform: translateY(-3px);
+}
+
+.mobile-hero-btn-secondary,
+.mobile-hero-btn-dark {
+    background: #222533;
+    color: #ffffff;
+}
+
+.mobile-hero-btn-secondary:hover,
+.mobile-hero-btn-dark:hover {
+    background: #1a1d28;
+    color: #ffffff;
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+}
+
+.mobile-hero-btn-primary {
+    background: #9ac32d;
+    color: #ffffff;
+}
+
+.mobile-hero-btn-primary:hover {
+    background: #8ab224;
+    color: #ffffff;
+    box-shadow: 0 12px 24px rgba(154, 195, 45, 0.35);
+}
+
+.mobile-hero-right {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 620px;
+    width: 100%;
+}
+
+.mobile-hero-image {
+    width: 100%;
+    max-width: 450px;
+    height: auto;
+    display: block;
+    object-fit: contain;
+}
+
+@media (max-width: 1200px) {
+    .mobile-hero-container {
+        padding: 70px 24px;
+        gap: 40px;
+    }
+
+    .mobile-hero-title {
+        font-size: 48px;
+    }
+
+    .mobile-hero-description {
+        font-size: 20px;
+        margin-top: 22px;
+    }
+
+    .mobile-hero-btn {
+        height: 52px;
+        padding: 0 32px;
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 992px) {
+    .mobile-hero-image {
+        max-width: 250px;
+    }
+}
+
+@media (max-width: 768px) {
+    .mobile-hero-container {
+        flex-direction: column;
+        text-align: center;
+        gap: 40px;
+    }
+
+    .mobile-hero-left {
+        align-items: center;
+        max-width: 100%;
+    }
+
+    .mobile-hero-title {
+        font-size: 42px;
+    }
+
+    .mobile-hero-description {
+        font-size: 18px;
+    }
+
+    .mobile-hero-buttons {
+        justify-content: center;
+    }
+
+    .mobile-hero-right {
+        order: 2;
+        width: 100%;
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .mobile-hero-container {
+        padding: 60px 20px;
+    }
+
+    .mobile-hero-title {
+        font-size: 34px;
+    }
+
+    .mobile-hero-buttons {
+        gap: 12px;
+    }
+
+    .mobile-hero-btn {
+        width: 100%;
+        max-width: 320px;
+    }
+}
+
+.mobile-info-section {
+    background: #fbfbfb;
+    width: 100%;
+    padding: 85px 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid #f0f0f0;
+}
+
+.mobile-info-container {
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.mobile-info-title {
+    font-family: var(
+        --font-display,
+        "Inter",
+        -apple-system,
+        BlinkMacSystemFont,
+        sans-serif
+    );
+    font-size: 38px;
+    font-weight: 700;
+    color: #1e2432;
+    margin: 0 0 28px 0;
+    letter-spacing: -0.02em;
+    line-height: 1.25;
+}
+
+.mobile-info-description {
+    font-family: var(
+        --font-body,
+        "Inter",
+        -apple-system,
+        BlinkMacSystemFont,
+        sans-serif
+    );
+    font-size: 16px;
+    line-height: 1.65;
+    color: #333333;
+    margin: 0 auto;
+    max-width: 890px;
+    font-weight: 400;
+}
+
+@media (max-width: 768px) {
+    .mobile-info-section {
+        padding: 55px 20px;
+    }
+
+    .mobile-info-title {
+        font-size: 28px;
+        margin-bottom: 20px;
+    }
+
+    .mobile-info-description {
+        font-size: 15px;
+        line-height: 1.6;
+    }
+}
+
+.mobile-features-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
+    margin-top: 50px;
+    width: 100%;
+}
+
+.mobile-feature-card {
+    background: #f2f2f2;
+    border-radius: 16px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #eef0f3;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.04);
+    transition: all 0.35s cubic-bezier(0.22, 1, 0.36, 1);
+    position: relative;
+    overflow: hidden;
+}
+
+.mobile-feature-card::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 4px;
+    background: linear-gradient(90deg, #9ac32d, #7fa322);
+    opacity: 0;
+    transition: opacity 0.35s ease;
+}
+
+.mobile-feature-card:hover {
+    transform: translateY(-8px);
+    border-color: rgba(154, 195, 45, 0.4);
+    box-shadow:
+        0 20px 35px rgba(154, 195, 45, 0.15),
+        0 8px 16px rgba(0, 0, 0, 0.04);
+}
+
+.mobile-feature-card:hover::before {
+    opacity: 1;
+}
+
+.mobile-feature-img-wrapper {
+    width: 100%;
+    height: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f2f2f2;
+    border-radius: 12px;
+    padding: 12px;
+    overflow: hidden;
+}
+
+.mobile-feature-img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    transition: transform 0.4s ease;
+}
+
+.mobile-feature-card:hover .mobile-feature-img {
+    transform: scale(1.06);
+}
+
+.mobile-feature-title {
+    font-family: var(
+        --font-display,
+        "Inter",
+        -apple-system,
+        BlinkMacSystemFont,
+        sans-serif
+    );
+    font-size: 15px;
+    font-weight: 600;
+    color: #1e2432;
+    margin-top: 16px;
+    margin-bottom: 0;
+    text-align: center;
+    line-height: 1.35;
+}
+
+@keyframes fadeUpGrid {
+    from {
+        opacity: 0;
+        transform: translateY(32px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.anim-hidden {
+    opacity: 0;
+}
+
+.anim-fade-up {
+    animation: fadeUpGrid 0.65s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+.mobile-feature-card {
+    opacity: 0;
+}
+
+.anim-fade-up .mobile-feature-card {
+    animation: fadeUpGrid 0.55s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+@media (max-width: 1100px) {
+    .mobile-features-grid {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .mobile-features-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 16px;
+        margin-top: 36px;
+    }
+
+    .mobile-feature-card {
+        padding: 16px;
+    }
+
+    .mobile-feature-img-wrapper {
+        height: 130px;
+    }
+
+    .mobile-feature-title {
+        font-size: 14px;
+        margin-top: 12px;
+    }
+}
+
+@media (max-width: 480px) {
+    .mobile-features-grid {
+        gap: 16px;
+    }
+}

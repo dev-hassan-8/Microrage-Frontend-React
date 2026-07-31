@@ -1,0 +1,37 @@
+{
+    "mobileAppDevelopment": {
+        "headingPrefix": "Mobile",
+        "headingHighlight": "App Development",
+        "description": "Leaders in every way, our team adopts early and learns fast. With experience in the range of development from pure native to cross platform apps, we can help you select the best choice for your project requirements.",
+        "image": {
+            "src": "webapp.webp",
+            "alt": "Mobile App Development Banner Illustration"
+        },
+        "buttons": [
+            {
+                "label": "Case Studies",
+                "href": "/casestudy",
+                "variant": "dark"
+            },
+            {
+                "label": "Contact Us",
+                "href": "/contact",
+                "variant": "primary"
+            }
+        ]
+    },
+    "mobileAppInfo": {
+        "heading": "Mobile Application Development",
+        "description": "Leaders in every way our team adopts early and learns fast. With experience in the range of development from pure native to cross platform apps, we can help you select the best choice for your project requirements. Our technologists provide recommendations to elevate your development strategy, reduce procedural churn and strengthen your solution or technology ecosystem.",
+        "features": [
+            { "id": 1, "title": "iOS & Android Development", "imageName": "app1.png" },
+            { "id": 2, "title": "Cross-Platform Solutions", "imageName": "app2.png" },
+            { "id": 3, "title": "Custom UI/UX App Design", "imageName": "app3.png" },
+            { "id": 4, "title": "Enterprise Mobile Apps", "imageName": "app4.png" },
+            { "id": 5, "title": "App API & Backend Integration", "imageName": "app5.png" },
+            { "id": 6, "title": "High-Performance Optimization", "imageName": "app6.png" },
+            { "id": 7, "title": "App Security & QA Testing", "imageName": "app7.png" },
+            { "id": 8, "title": "Maintenance & Continuous Support", "imageName": "app8.png" }
+        ]
+    }
+}

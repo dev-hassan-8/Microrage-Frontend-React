@@ -1,0 +1,35 @@
+{
+    "ecommerceDevelopment": {
+        "headingPrefix": "E-commerce",
+        "headingHighlight": "Development",
+        "description": "Have a great idea for a custom marketplace? We know how to create a platform that your users will love.",
+        "image": {
+            "src": "ecommerce.webp",
+            "alt": "E-Commerce Development Banner Illustration"
+        },
+        "buttons": [
+            {
+                "label": "Case Studies",
+                "href": "/casestudy",
+                "variant": "dark"
+            },
+            {
+                "label": "Contact Us",
+                "href": "/contact",
+                "variant": "primary"
+            }
+        ]
+    },
+    "ecommerceInfo": {
+        "heading": "E-Commerce Development Solutions",
+        "description": "We craft scalable, high-converting e-commerce platforms tailored to your business needs, seamlessly integrating secure payment gateways, inventory management, and intuitive shopping experiences.",
+        "features": [
+            { "id": 1, "title": "Custom Online Stores", "imageName": "ecm_1.png" },
+            { "id": 2, "title": "Marketplace Development", "imageName": "ecm_2.png" },
+            { "id": 3, "title": "Shopping Cart & Checkout", "imageName": "ecm_3.png" },
+            { "id": 4, "title": "Payment Gateway Integration", "imageName": "ecm_4.png" },
+            { "id": 5, "title": "Inventory & Order Management", "imageName": "ecm_5.png" },
+            { "id": 6, "title": "Mobile E-Commerce Apps", "imageName": "ecm_6.png" }
+        ]
+    }
+}

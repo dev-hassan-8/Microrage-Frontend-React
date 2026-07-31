@@ -1,0 +1,125 @@
+{
+    "contactPage": {
+        "titlePrefix": "Contact",
+        "titleSuffix": " Us",
+        "description": "Being a strong team of high-skilled programmers, we are passionate about delivering tangible results.",
+        "contactInfo": {
+            "headingPrefix": "Get in",
+            "headingSuffix": " touch",
+            "addressLabel": "Address",
+            "address": "MB-60, Zainab Tower, Model Town Link Road, Lahore, Pakistan.",
+            "phoneLabel": "Phone",
+            "phone": "+92-42-35942474",
+            "phoneHref": "tel:+924235942474",
+            "emailLabel": "Email",
+            "email": "info@microrage.com",
+            "emailHref": "mailto:info@microrage.com"
+        },
+        "map": {
+            "embedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3401.2!2d74.3107!3d31.4697!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391904e8c0000001%3A0x1234567890abcdef!2sMicrorage+Solutions+%28PVT%29+Limited!5e0!3m2!1sen!2s!4v1234567890",
+            "title": "Microrage Solutions location on Google Maps"
+        }
+    },
+
+    "contactForm": {
+        "banner": {
+            "title": "Let's build a great product together!"
+        },
+        "title": "Tell us about your project:",
+        "fields": {
+            "name": {
+                "label": "Your Name",
+                "placeholder": "Your Name",
+                "required": true,
+                "type": "text",
+                "errorMessage": "Please enter your name"
+            },
+            "email": {
+                "label": "E-mail",
+                "placeholder": "E-mail",
+                "required": true,
+                "type": "email",
+                "errorMessage": "Please enter a valid email address"
+            },
+            "phone": {
+                "label": "Phone Number",
+                "placeholder": "Phone Number",
+                "required": true,
+                "type": "tel",
+                "errorMessage": "Please enter a valid phone number"
+            },
+            "service": {
+                "label": "Select Service",
+                "placeholder": "Select Service",
+                "required": true,
+                "type": "select",
+                "errorMessage": "Please select a service"
+            },
+            "budget": {
+                "label": "Select Budget",
+                "placeholder": "Select Budget",
+                "required": true,
+                "type": "select",
+                "errorMessage": "Please select a budget range"
+            },
+            "description": {
+                "label": "Project Description",
+                "placeholder": "Project description: general description, features list, wireframes, mockups? Application: help with existing one or build from scratch",
+                "required": true,
+                "type": "textarea",
+                "errorMessage": "Please enter a project description"
+            },
+            "file": {
+                "label": "Attach File",
+                "placeholder": "No file chosen",
+                "buttonText": "Choose File",
+                "errorMessage": "Please select a valid PDF file under 10MB"
+            }
+        },
+        "serviceOptions": [
+            "Web App Development",
+            "Mobile Apps",
+            "AI & Machine Learning",
+            "E-commerce",
+            "Strategic Consultancy",
+            "Business Process Outsourcing"
+        ],
+        "budgetOptions": [
+            "Less than $5,000",
+            "$5,000 - $10,000",
+            "$10,000 - $25,000",
+            "$25,000 - $50,000",
+            "$50,000+"
+        ],
+        "uploadNote": "Please note that only PDF format files are accepted for upload.",
+        "submitButton": "Submit",
+        "sidebar": {
+            "title": "What’s next?",
+            "steps": [
+                {
+                    "id": 1,
+                    "textPrefix": "We will contact you to discuss the next steps."
+                },
+                {
+                    "id": 2,
+                    "textPrefix": "In the meantime, you can check our ",
+                    "linkText": "Case Studies",
+                    "linkHref": "/casestudy",
+                    "textSuffix": "."
+                },
+                {
+                    "id": 3,
+                    "textPrefix": "We will sign the NDA if required, and start the project discussion."
+                },
+                {
+                    "id": 4,
+                    "textPrefix": "Our experts will analyze your requirements and suggest the best ways to bring your idea to life."
+                }
+            ]
+        },
+        "illustration": {
+            "image": "form-man.png",
+            "alt": "Illustration of man thinking about project ideas"
+        }
+    }
+}

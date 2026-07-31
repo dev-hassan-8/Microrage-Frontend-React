@@ -1,0 +1,258 @@
+{
+    "navbar": {
+        "brand": {
+            "label": "Microrage",
+            "href": "/"
+        },
+        "toggleLabel": "Open navigation menu",
+        "closeLabel": "Close navigation menu",
+        "links": [
+            {
+                "label": "Home",
+                "href": "/"
+            },
+            {
+                "label": "About Us",
+                "href": "/about"
+            },
+            {
+                "label": "Our Services",
+                "href": "/services",
+                "hasDropdown": true
+            },
+            {
+                "label": "Case Studies",
+                "href": "/casestudy"    
+            },
+            {
+                "label": "Contact Us",
+                "href": "/contact"
+            }
+        ],
+        "servicesDropdown": {
+            "dropdownLabel": "Our Services submenu",
+            "items": [
+                {
+                    "label": "Web App Development",
+                    "href": "/web-application-development"
+                },
+                {
+                    "label": "Mobile App Development",
+                    "href": "/mobile-app-development"
+                },
+                {
+                    "label": "E-commerce Development",
+                    "href": "/e-commerce-development"
+                },
+                {
+                    "label": "AI & Machine Learning",
+                    "href": "/ai-machine-learning"
+                },
+                { "label": "IoT Solutions", 
+                    "href": "iot-solutions"
+                 },
+                {
+                    "label": "Strategic Consultancy",
+                    "href": "/strategic-consultancy"
+                },
+                {
+                    "label": "Business Process Outsourcing",
+                    "href": "/business-process-outsourcing"
+                }
+            ]
+        },
+        "cta": {
+            "label": "Talk to Us",
+            "href": "/talk-to-us"
+        }
+    },
+    "hero": {
+        "eyebrow": "Innovative solutions for you that actually work!",
+        "titlePrefix": "INNOVATIVE SOLUTIONS FOR YOU",
+        "titleHighlight": "THAT ACTUALLY",
+        "titleSuffix": "WORK!",
+        "description": "We are a web/mobile app, E-commerce and custom software development agency!",
+        "projectPrompt": "Have an idea for a great project?",
+        "primaryCta": {
+            "label": "Talk to Us",
+            "href": "/talk-to-us"
+        }
+    },
+    "services": {
+        "title": "Core Competencies",
+        "items": [
+            {
+                "title": "Web App Development",
+                "description": "Smart architecture, seamless performance web solutions built to scale.",
+                "href": "/web-application-development"
+            },
+            {
+                "title": "Mobile Apps",
+                "description": "From native precision to cross-platform agility we build apps that evolve with you.",
+                "href": "/mobile-app-development"
+            },
+            {
+                "title": "AI & Machine Learning",
+                "description": "Custom AI that adapts, predicts, and elevates your digital platform's intelligence.",
+                "href": "/ai-machine-learning"
+            },
+            {
+                "title": "E-commerce",
+                "description": "Launch, manage, and secure your store from first click to final checkout.",
+                "href": "/e-commerce-development"
+            },
+            {
+                "title": "Strategic Consultancy",
+                "description": "Expert guidance to drive growth, innovation, and competitive business advantage.",
+                "href": "/strategic-consultancy"
+            },
+            {
+                "title": "Business Process Outsourcing",
+                "description": "Strategic outsourcing that empowers your core focus and optimizes operations.",
+                "href": "/business-process-outsourcing"
+            }
+        ]
+    },
+    "innovate": {
+        "heading": "Flexibility to Innovate",
+        "body": "Micrororage surpass in every technology powering native, hybrid, cross-platform and custom software package development with our phenomenal strategists, designers, architects, developers and quality analysts.",
+        "callout": "Have an idea of a new product or MVP? We are here to help ",
+        "calloutLink": "you",
+        "calloutLinkHref": "/talk-to-us",
+        "calloutSuffix": " convert your idea into reality.",
+        "cta": {
+            "label": "Free Consultancy Session",
+            "href": "/talk-to-us"
+        }
+    },
+    "caseStudies": {
+        "title": "Case Studies",
+        "subheading": "We Believe in the Power of Great Work.",
+        "bodyNormal": "We take pride in everything we do, but some projects stand above the rest. ",
+        "bodyHighlight": "These highlights showcase our creativity, dedication, and the powerful results that come from doing what we love exceptional work that speaks for itself."
+    },
+    "testimonials": {
+        "label": "Testimonials",
+        "title": "Check what our client says about us",
+        "image": "testimonial-office",
+        "imageAlt": "Modern office building representing our clients",
+        "autoPlayDelay": 4000,
+        "items": [
+            {
+                "paragraph": "18+ month project. Ground up build of complex web based workflow application. Integrated with several 3rd party API's (Email, Text, PDF, Maps etc) Excellent ability to understand requirements and translate into build. Prompt communications and consistent updates. Expansive technical skill set. We are extremely satisfied and have awarded them another 18 month contract project.",
+                "clientName": "A. Patel"
+            },
+            {
+                "paragraph": "Microrage delivered our e-commerce platform ahead of schedule and exceeded all expectations. Their team demonstrated deep technical expertise and superb attention to detail throughout the entire development lifecycle. Communication was seamless and the quality of code was outstanding.",
+                "clientName": "S. Thompson"
+            },
+            {
+                "paragraph": "Working with Microrage on our mobile application was an exceptional experience. They took our rough concept and transformed it into a polished, performant product that our users love. The team's proactive approach to problem-solving saved us significant time and budget.",
+                "clientName": "R. Martinez"
+            },
+            {
+                "paragraph": "The AI integration project Microrage completed for us has fundamentally transformed how we process data. Their understanding of machine learning pipelines and enterprise-grade software architecture is second to none. We look forward to a long-term partnership.",
+                "clientName": "L. Chen"
+            }
+        ]
+    },
+    "keyClients": {
+        "title": "Our Key Clients",
+        "autoPlayDelay": 3500,
+        "visibleCardsDesktop": 5,
+        "visibleCardsTablet": 3,
+        "visibleCardsMobile": 2,
+        "logos": [
+            {
+                "image": "key_0.png",
+                "alt": "Upgrade VIP"
+            },
+            {
+                "image": "key_1.png",
+                "alt": "Client 1"
+            },
+            {
+                "image": "key_2.png",
+                "alt": "Dexterous Technology"
+            },
+            {
+                "image": "key_3.png",
+                "alt": "GTC Global"
+            },
+            {
+                "image": "key_4.png",
+                "alt": "Bayer"
+            },
+            {
+                "image": "key_5.png",
+                "alt": "Client 5"
+            },
+            {
+                "image": "key_6.png",
+                "alt": "Client 6"
+            },
+            {
+                "image": "key_7.png",
+                "alt": "Client 7"
+            },
+            {
+                "image": "key_8.jpg",
+                "alt": "Client 8"
+            },
+            {
+                "image": "key_9.png",
+                "alt": "Client 9"
+            }
+        ]
+    },
+    "footer": {
+        "logo": {
+            "image": "logo.png",
+            "alt": "Microrage Solutions"
+        },
+        "description": "Microrage is a web design and development company that specializes in building nice websites and rich internet applications. Our staff is comprised of passionate IT professionals, who are brought alongside with numerous abilities to provide you such solutions that create a powerful relationship between you and your customers.",
+        "importantLinksTitle": "Important Links",
+        "importantLinks": [
+            {
+                "label": "About Us",
+                "href": "/about"
+            },
+            {
+                "label": "Our Services",
+                "href": "/services"
+            },
+            {
+                "label": "Case Studies",
+                "href": "/casestudy"
+            },
+            {
+                "label": "Contact Us",
+                "href": "/contact"
+            }
+        ],
+        "contactTitle": "Get in touch",
+        "contact": {
+            "address": "MB-60, Zainab Tower, Model Town Link Road, Lahore, Pakistan.",
+            "phonePrefix": "Phone: ",
+            "phone": "+92-42-35942474",
+            "phoneHref": "tel:+924235942474",
+            "emailPrefix": "Email: ",
+            "email": "info@microrage.com",
+            "emailHref": "mailto:info@microrage.com"
+        },
+        "socials": [
+            {
+                "name": "Facebook",
+                "url": "https://www.facebook.com/microrage/",
+                "platform": "facebook"
+            },
+            {
+                "name": "LinkedIn",
+                "url": "https://www.linkedin.com/company/microrage-solutions/",
+                "platform": "linkedin"
+            }
+        ],
+        "copyrightPrefix": "© 2026. All rights reserved by ",
+        "copyrightBrand": "Microrage Solutions."
+    }
+}

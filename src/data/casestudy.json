@@ -1,0 +1,57 @@
+{
+  "casestudyPage": {
+    "titlePrefix": "Case",
+    "titleSuffix": "Studies",
+    "description": "Custom web development offers options for businesses who seek to provide a flexible, consistent experience for users across different platforms, we achieve it through innovative functionality, well designed architecture based on most suitable technology."
+  },
+  "caseStudies": [
+    {
+      "id": 1,
+      "title": "Rahnuma",
+      "description": "Discover how Microrage Solutions engineered a transformative digital backbone for Rahnuma-FPAP streamlining data across 1,500+ hospitals and clinics nationwide to unlock insights, improve care, and future-proof Pakistan's health systems.",
+      "image": "1.png",
+      "buttonLabel": "Read More",
+      "buttonLink": "#"
+    },
+    {
+      "id": 2,
+      "title": "UpgradeVIP",
+      "description": "Microrage built a high-performance loyalty and rewards platform for UpgradeVIP, enabling seamless member management, real-time points tracking, and a premium user experience that drives engagement and long-term retention.",
+      "image": "2.png",
+      "buttonLabel": "Read More",
+      "buttonLink": "#"
+    },
+    {
+      "id": 3,
+      "title": "GTC Global",
+      "description": "We delivered a robust end-to-end logistics management system for GTC Global, integrating real-time shipment tracking, automated documentation, and a scalable architecture designed to handle enterprise-level freight operations.",
+      "image": "3.png",
+      "buttonLabel": "Read More",
+      "buttonLink": "#"
+    },
+    {
+      "id": 4,
+      "title": "Dexterous Technology",
+      "description": "Microrage partnered with Dexterous Technology to build a cutting-edge SaaS platform that automates complex workflows, reduces manual overhead, and empowers teams with actionable analytics and a clean, intuitive interface.",
+      "image": "4.png",
+      "buttonLabel": "Read More",
+      "buttonLink": "#"
+    },
+    {
+      "id": 5,
+      "title": "Bayer Digital Suite",
+      "description": "We developed a secure and scalable digital suite for Bayer, enabling global teams to collaborate effectively, manage product data with precision, and accelerate time-to-market through intelligent automation and streamlined workflows.",
+      "image": "5.png",
+      "buttonLabel": "Read More",
+      "buttonLink": "#"
+    },
+    {
+      "id": 6,
+      "title": "E-Commerce Platform",
+      "description": "A complete redesign of a high-traffic online store focused on conversion optimisation, personalized recommendations, and a mobile-first checkout experience that reduced cart abandonment and significantly increased revenue.",
+      "image": "6.png",
+      "buttonLabel": "Read More",
+      "buttonLink": "#"
+    }
+  ]
+}

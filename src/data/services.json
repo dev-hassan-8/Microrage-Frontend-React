@@ -1,0 +1,23 @@
+{
+  "ServicesHero": {
+    "headingPrefix": "Our",
+    "headingHighlight": "Services",
+    "description": "Custom web development offers options for businesses who seek to provide a flexible, consistent experience for users across different platforms, we achieve it through innovative functionality, well designed architecture based on most suitable technology.",
+    "image": {
+      "src": "services-banner.jpg",
+      "alt": "Our Services Banner Illustration"
+    },
+    "buttons": [
+      {
+        "label": "Case Studies",
+        "href": "/casestudy",
+        "variant": "dark"
+      },
+      {
+        "label": "Contact Us",
+        "href": "/contact",
+        "variant": "primary"
+      }
+    ]
+  }
+}

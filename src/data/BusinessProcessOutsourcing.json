@@ -1,0 +1,33 @@
+{
+    "businessProcessOutsourcing": {
+        "headingPrefix": "Business Process",
+        "headingHighlight": "Outsourcing",
+        "description": "Microrage outsourcing service offers the ability to entirely or partially take over the development, maintenance, conversion and enhancement of development, design, support and consultancy services.",
+        "image": {
+            "src": "webapp.webp",
+            "alt": "Business Process Outsourcing Banner Illustration"
+        },
+        "buttons": [
+            {
+                "label": "Case Studies",
+                "href": "/casestudy",
+                "variant": "dark"
+            },
+            {
+                "label": "Contact Us",
+                "href": "/contact",
+                "variant": "primary"
+            }
+        ]
+    },
+    "bpoInfo": {
+        "heading": "End-to-End Business Process & Software Outsourcing",
+        "description": "Scale your technical capacity seamlessly with our experienced developers, designers, and project managers dedicated to delivering high quality software solutions.",
+        "features": [
+            { "id": 1, "title": "Dedicated Development Teams", "imageName": "key_6.png" },
+            { "id": 2, "title": "Software Maintenance & Enhancements", "imageName": "key_7.png" },
+            { "id": 3, "title": "UI/UX Design & Prototyping", "imageName": "key_8.jpg" },
+            { "id": 4, "title": "24/7 Operations & Managed Support", "imageName": "key_9.png" }
+        ]
+    }
+}

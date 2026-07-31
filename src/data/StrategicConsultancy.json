@@ -1,0 +1,33 @@
+{
+    "strategicConsultancy": {
+        "headingPrefix": "Strategic",
+        "headingHighlight": "Consultancy",
+        "description": "Define the investment potential, technology stack, timeline, total cost of ownership and the ongoing maintenance required to launch and sustain a solution.",
+        "image": {
+            "src": "strategy.webp",
+            "alt": "Strategic Consultancy Banner Illustration"
+        },
+        "buttons": [
+            {
+                "label": "Case Studies",
+                "href": "/casestudy",
+                "variant": "dark"
+            },
+            {
+                "label": "Contact Us",
+                "href": "/contact",
+                "variant": "primary"
+            }
+        ]
+    },
+    "strategyInfo": {
+        "heading": "Strategic IT Advisory & Consulting Services",
+        "description": "Our experts evaluate your business landscape to design sustainable technology roadmaps, optimize cloud infrastructure, and streamline digital transformation initiatives.",
+        "features": [
+            { "id": 1, "title": "Technology Stack & Architecture Audit", "imageName": "key_4.png" },
+            { "id": 2, "title": "Product Roadmap & Feasibility Analysis", "imageName": "key_5.png" },
+            { "id": 3, "title": "Total Cost of Ownership (TCO) & ROI", "imageName": "key_6.png" },
+            { "id": 4, "title": "Long-term Maintenance & Scalability", "imageName": "key_7.png" }
+        ]
+    }
+}

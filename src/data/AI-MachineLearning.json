@@ -1,0 +1,33 @@
+{
+    "aiMachineLearning": {
+        "headingPrefix": "Empowering Your Business with",
+        "headingHighlight": "Smart, Scalable Intelligence",
+        "description": "At Microrage Solutions, we harness the power of Artificial Intelligence and Machine Learning to build intelligent systems that drive measurable results. Whether you're looking to optimize operations, enhance customer experience, or uncover hidden insights in your data, our AI-driven solutions are designed to elevate your business in a rapidly evolving digital world.",
+        "image": {
+            "src": "ai_machine.webp",
+            "alt": "AI Machine Learning Banner Illustration"
+        },
+        "buttons": [
+            {
+                "label": "Case Studies",
+                "href": "/casestudy",
+                "variant": "dark"
+            },
+            {
+                "label": "Contact Us",
+                "href": "/contact",
+                "variant": "primary"
+            }
+        ]
+    },
+    "aiInfo": {
+        "heading": "Our AI & Machine Learning Capabilities",
+        "description": "From custom deep learning models to automated data processing pipelines, we deliver end-to-end artificial intelligence solutions tailored to transform your enterprise.",
+        "features": [
+            { "id": 1, "title": "Predictive Analytics & Forecasting", "imageName": "chose1.png" },
+            { "id": 2, "title": "Natural Language Processing (NLP)", "imageName": "chose2.png" },
+            { "id": 3, "title": "Computer Vision & Image Recognition", "imageName": "chose3.png" },
+            { "id": 4, "title": "Custom Machine Learning Models", "imageName": "chose4.png" }
+        ]
+    }
+}

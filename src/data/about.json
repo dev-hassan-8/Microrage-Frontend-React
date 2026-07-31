@@ -1,0 +1,69 @@
+{
+  "about": {
+    "headingPrefix": "Who",
+    "headingSuffix": " Are We",
+    "subtitle": "We are a passionate experienced team with big ambitions.",
+    "description": "Microrage Solutions is a technology service and support company committed to delivering innovation. Microrage provides high quality IT solutions and hosting services with optimal skills and service level. With deep industry and business process expertise and proven track record Microrage can utilize the right skills and technologies to help clients achieve real business outcome.",
+    "image": {
+      "src": "about-us.jpg",
+      "alt": "Microrage team collaborating"
+    },
+    "buttons": [
+      {
+        "label": "Case Studies",
+        "href": "/casestudy",
+        "variant": "dark"
+      },
+      {
+        "label": "Contact Us",
+        "href": "/contact",
+        "variant": "primary"
+      }
+    ]
+  },
+  "whyChooseUsDetails": {
+    "title": "Why Choose Us",
+    "cards": [
+      {
+        "title": "High Engineering Standards",
+        "description": "We focus on a number of technologies which helps us get strong performance. Delivering products for a wide range of end users, we look deeper into the processes, combining cutting-edge methods and simple solutions."
+      },
+      {
+        "title": "Credible Experience",
+        "description": "The company's progress is defined with its clients' success. We've earned our customers' trust after bringing series of expected results and continue doing this every day."
+      },
+      {
+        "title": "Results Driven Development",
+        "description": "Customers' needs come first. Launching a project, we specify practices to achieve it. In the development process, we focus on market demands and rely on users feedback to deliver the product which covers your scopes."
+      },
+      {
+        "title": "Transparency and Ease of Work",
+        "description": "We encourage all our clients to take part in each step of the development process. So we keep the process clear to check results at any milestone. Both sides gain mutual benefits from cooperation."
+      }
+    ]
+  },
+  "aboutDetails": {
+    "aboutTitle": "About Microrage Solutions",
+    "aboutDescription": "At Microrage Solutions we design and develop digital products including mobile apps, websites and web applications. The two cornerstones upon which we build successful software are user-centered interaction design and scalable software architecture. We offer flexible solutions custom-designed to meet your specific requirement. Our skilled experts not only have the technical experience, but an understanding of the business and industry to help you make the most of your IT investment.",
+    "mission": {
+      "title": "Mission",
+      "description": "Microrage Solutions is founded on five guiding principles:",
+      "points": [
+        "To consistently deliver superior quality services",
+        "To proactively communicate with clients throughout the process",
+        "To honor client commitments for every project",
+        "To execute projects with complete work ethic and integrity",
+        "To keep our client as our first priority always"
+      ]
+    },
+    "vision": {
+      "title": "Vision",
+      "description": "\"To provide the best solutions and technology that enable businesses to excel\""
+    },
+    "technologySection": {
+      "title": "Where Technology Meets Emotion",
+      "paragraph1": "Established in 2012, Microrage Solutions is forward looking and as a policy explores new fronts to stay abreast of the competition. The activities in export sector are being expanded and today the company is one of the leading service providers in its area of work. Large-scale modernization of existing systems is part of the continuing efforts to remain at the cutting edge of the IT business. Company works with our valued customers from around the globe.",
+      "paragraph2": "At Microrage Solutions, with Technical proficiency and expertise, we cohesively integrate graphic design with web page layout, with interactive programming, with database driven content, to plan, build and deploy e-business and to emerge as one of the top IT service provider. The business philosophy of the company is to lay emphasis on Human Values and Personal Relations. At Microrage – Technology meets emotions and limits are higher than the sky.' Great stress is laid on proper communication, transparency and human relations, which forms an integral part of the corporate culture."
+    }
+  }
+}

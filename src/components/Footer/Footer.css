@@ -1,0 +1,238 @@
+.site-footer {
+  --ft-bg-main: #1c2430;
+  --ft-bg-bar: #121820;
+  --ft-text-light: #ffffff;
+  --ft-text-muted: #cbd5e1;
+  --ft-text-dim: #94a3b8;
+  --ft-green: #8bc53f;
+  --ft-facebook: #3b5998;
+  --ft-linkedin: #0077b5;
+
+  background-color: var(--ft-bg-main);
+  color: var(--ft-text-muted);
+  font-family: var(--font-body, "Inter", sans-serif);
+  width: 100%;
+}
+
+.footer-main {
+  padding: clamp(52px, 6vw, 76px) clamp(20px, 5vw, 48px) clamp(44px, 5vw, 64px);
+}
+
+.footer-container {
+  max-width: var(--container, 1180px);
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1.4fr 1fr 1.2fr;
+  gap: clamp(32px, 5vw, 64px);
+  align-items: start;
+}
+
+.footer-col-brand {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.footer-logo-wrapper {
+  display: inline-block;
+}
+
+.footer-logo-img {
+  height: 48px;
+  width: auto;
+  object-fit: contain;
+  display: block;
+}
+
+.footer-description {
+  margin: 0;
+  font-size: 0.915rem;
+  line-height: 1.75;
+  color: white;
+  max-width: 400px;
+}
+
+.footer-col-links {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-heading {
+  margin: 0 0 24px 0;
+  font-family: var(--font-display, "Inter", sans-serif);
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--ft-text-light);
+  letter-spacing: -0.01em;
+}
+
+.footer-links-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.footer-link-item {
+  margin: 0;
+}
+
+.footer-link {
+  color: var(--ft-text-light);
+  font-size: 0.95rem;
+  font-weight: 700;
+  text-decoration: none;
+  display: inline-block;
+  transition:
+    color 300ms ease,
+    transform 300ms ease;
+}
+
+.footer-link:hover,
+.footer-link:focus-visible {
+  color: var(--ft-green);
+  transform: translateX(4px);
+}
+
+.footer-link:focus-visible {
+  outline: 2px solid var(--ft-green);
+  outline-offset: 3px;
+  border-radius: 2px;
+}
+
+.footer-col-contact {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-contact-info {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 24px;
+}
+
+.footer-contact-line {
+  margin: 0;
+  font-size: 0.915rem;
+  line-height: 1.6;
+  color: white;
+}
+
+.footer-address {
+  max-width: 340px;
+}
+
+.footer-contact-link {
+  color: white;
+  text-decoration: none;
+  transition: color 300ms ease;
+}
+
+.footer-contact-link:hover,
+.footer-contact-link:focus-visible {
+  color: #97b325;
+}
+
+.footer-socials {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.footer-social-btn {
+  width: 32px;
+  height: 32px;
+  border-radius: 4px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  text-decoration: none;
+  transition:
+    transform 300ms cubic-bezier(0.34, 1.56, 0.64, 1),
+    box-shadow 300ms ease,
+    opacity 300ms ease;
+}
+
+.footer-social-facebook {
+  background-color: var(--ft-facebook);
+}
+
+.footer-social-linkedin {
+  background-color: var(--ft-linkedin);
+}
+
+.footer-social-btn:hover,
+.footer-social-btn:focus-visible {
+  transform: translateY(-3px) scale(1.1);
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.35);
+}
+
+.footer-social-btn:focus-visible {
+  outline: 2px solid var(--ft-green);
+  outline-offset: 3px;
+}
+
+.footer-copyright-bar {
+  background-color: var(--ft-bg-bar);
+  padding: 16px 20px;
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.footer-copyright-text {
+  margin: 0;
+  font-size: 0.85rem;
+  color: var(--ft-text-dim);
+  text-align: center;
+  line-height: 1.5;
+}
+
+.footer-copyright-brand {
+  color: var(--ft-text-light);
+  font-weight: 700;
+}
+
+@media (max-width: 1023px) {
+  .footer-container {
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+  }
+
+  .footer-col-brand {
+    grid-column: 1 / -1;
+  }
+
+  .footer-description {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 639px) {
+  .footer-main {
+    padding-block: 44px;
+  }
+
+  .footer-container {
+    grid-template-columns: 1fr;
+    gap: 36px;
+  }
+
+  .footer-heading {
+    margin-bottom: 18px;
+  }
+
+  .footer-address {
+    max-width: 100%;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .footer-link,
+  .footer-contact-link,
+  .footer-social-btn {
+    transition: none;
+  }
+}

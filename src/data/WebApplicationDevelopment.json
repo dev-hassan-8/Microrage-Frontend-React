@@ -1,0 +1,56 @@
+{
+    "webApplicationDevelopment": {
+        "headingPrefix": "Web",
+        "headingHighlight": "Application Development",
+        "description": "We build high-performing custom web applications for businesses that need more than a standard solution.",
+        "image": {
+            "src": "services-banner.jpg",
+            "alt": "Our Services Banner Illustration"
+        },
+        "buttons": [
+            {
+                "label": "Case Studies",
+                "href": "/casestudy",
+                "variant": "dark"
+            },
+            {
+                "label": "Contact Us",
+                "href": "/contact",
+                "variant": "primary"
+            }
+        ]
+    },
+    "webAppInfo": {
+        "heading": "Web Application Development",
+        "description": "In the digital age, having robust and reliable web applications is crucial for any business aiming to stay ahead of the competition. At Microrage Solutions, we specialize in developing custom web applications tailored to your unique business needs. Our team of experienced developers uses the latest technologies and best practices to deliver scalable, secure, and user-friendly solutions.",
+        "image": {
+            "src": "tools.png",
+            "alt": "Developer working on web application illustration"
+        },
+        "features": [
+            "Database programming",
+            "Responsive / Multi-platform compatible solutions",
+            "High performance resilient systems",
+            "SEO compliant industry standards"
+        ]
+    },
+    "webAppDetails": {
+        "mainHeading": "Custom Web Application Development",
+        "mainDescription": "Our custom web application development services are designed to help businesses automate processes, improve efficiency, and enhance user experiences. We work closely with you to understand your business goals and create a web application that aligns with your vision. Our services include:",
+        "services": [
+            "Requirement analysis and consulting",
+            "Custom web application design and development",
+            "Integration with existing systems",
+            "Responsive design for mobile and desktop"
+        ],
+        "techHeading": "Advanced Technologies",
+        "techDescription": "We leverage advanced technologies to build web applications that are not only functional but also innovative.",
+        "expertiseHeading": "Our expertise includes:",
+        "expertiseIntro": "JavaScript frameworks such as Angular, React, and Vue.js",
+        "expertiseList": [
+            "Backend technologies like Node.js, Django, and Ruby on Rails",
+            "Database management with SQL, NoSQL, and cloud databases",
+            "API development and integration"
+        ]
+    }
+}

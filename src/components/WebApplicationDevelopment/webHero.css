@@ -1,0 +1,563 @@
+.web-hero {
+    background: #ffffff;
+    width: 100%;
+    overflow: hidden;
+}
+
+.web-hero-container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 50px 34px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 65px;
+}
+
+.web-hero-left {
+    flex: 1;
+    max-width: 620px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.web-hero-title {
+    font-family: var(
+        --font-display,
+        "Inter",
+        -apple-system,
+        BlinkMacSystemFont,
+        sans-serif
+    );
+    font-size: 37px;
+    font-weight: 700;
+    line-height: 1.15;
+    color: black;
+    margin: 0;
+    letter-spacing: -0.02em;
+}
+
+.web-hero-highlight {
+    color: #9ac32d;
+}
+
+.web-hero-description {
+    font-size: 17px;
+    line-height: 1.8;
+    color: black;
+    max-width: 620px;
+    margin-top: 28px;
+    margin-bottom: 0;
+}
+
+.web-hero-buttons {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-top: 36px;
+}
+
+.web-hero-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 58px;
+    padding: 0 40px;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+    white-space: nowrap;
+    cursor: pointer;
+    border: none;
+    transition: all 0.3s ease;
+}
+
+.web-hero-btn:hover {
+    transform: translateY(-3px);
+}
+
+.web-hero-btn-secondary,
+.web-hero-btn-dark {
+    background: #222533;
+    color: #ffffff;
+}
+
+.web-hero-btn-secondary:hover,
+.web-hero-btn-dark:hover {
+    background: #1a1d28;
+    color: #ffffff;
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+}
+
+.web-hero-btn-primary {
+    background: #9ac32d;
+    color: #ffffff;
+}
+
+.web-hero-btn-primary:hover {
+    background: #8ab224;
+    color: #ffffff;
+    box-shadow: 0 12px 24px rgba(154, 195, 45, 0.35);
+}
+
+.web-hero-right {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 620px;
+    width: 100%;
+}
+
+.web-hero-image {
+    width: 100%;
+    max-width: 450px;
+    height: auto;
+    display: block;
+    object-fit: contain;
+}
+
+@media (max-width: 1200px) {
+    .web-hero-container {
+        padding: 70px 24px;
+        gap: 40px;
+    }
+
+    .web-hero-title {
+        font-size: 48px;
+    }
+
+    .web-hero-description {
+        font-size: 20px;
+        margin-top: 22px;
+    }
+
+    .web-hero-btn {
+        height: 52px;
+        padding: 0 32px;
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 992px) {
+    .web-hero-image {
+        max-width: 250px;
+    }
+}
+
+@media (max-width: 768px) {
+    .web-hero-container {
+        flex-direction: column;
+        text-align: center;
+        gap: 40px;
+    }
+
+    .web-hero-left {
+        align-items: center;
+        max-width: 100%;
+    }
+
+    .web-hero-title {
+        font-size: 42px;
+    }
+
+    .web-hero-description {
+        font-size: 18px;
+    }
+
+    .web-hero-buttons {
+        justify-content: center;
+    }
+
+    .web-hero-right {
+        order: 2;
+        width: 100%;
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .web-hero-container {
+        padding: 22px 6px;
+    }
+
+    .web-hero-title {
+        font-size: 34px;
+    }
+
+    .web-hero-buttons {
+        gap: 12px;
+    }
+
+    .web-hero-btn {
+        width: 100%;
+        max-width: 320px;
+    }
+}
+
+.webappinfo-section {
+    background: #f7f7f7;
+    width: 100%;
+    padding: 90px 95px;
+}
+
+.webappinfo-container {
+    max-width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    gap: 70px;
+}
+
+.webappinfo-left {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.webappinfo-heading {
+    font-size: 40px;
+    font-weight: 700;
+    color: #1f2433;
+    line-height: 1.15;
+    margin: 0 0 28px 0;
+    letter-spacing: -0.02em;
+    font-family: var(
+        --font-display,
+        "Inter",
+        -apple-system,
+        BlinkMacSystemFont,
+        sans-serif
+    );
+}
+
+.webappinfo-description {
+    font-size: 14px;
+    line-height: 1.8;
+    color: black;
+    max-width: 850px;
+    margin: 0 0 36px 0;
+}
+
+.webappinfo-checklist {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.webappinfo-checklist-item {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    opacity: 0;
+}
+
+.webappinfo-check-icon {
+    color: #9ac32d;
+    font-size: 20px;
+    font-weight: 700;
+    flex-shrink: 0;
+    line-height: 1;
+}
+
+.webappinfo-feature-text {
+    font-size: 14px;
+    font-weight: 500;
+    color: black;
+    line-height: 1.5;
+    font-family: var(
+        --font-display,
+        "Inter",
+        -apple-system,
+        BlinkMacSystemFont,
+        sans-serif
+    );
+}
+
+.webappinfo-right {
+    flex-shrink: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.webappinfo-image {
+    max-width: 420px;
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    display: block;
+}
+
+@media (max-width: 1024px) {
+    .webappinfo-container {
+        gap: 48px;
+    }
+
+    .webappinfo-heading {
+        font-size: 48px;
+    }
+
+    .webappinfo-description {
+        font-size: 18px;
+    }
+
+    .webappinfo-image {
+        max-width: 320px;
+    }
+}
+
+@media (max-width: 768px) {
+    .webappinfo-section {
+        padding: 64px 24px;
+    }
+
+    .webappinfo-container {
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+    }
+
+    .webappinfo-left {
+        align-items: center;
+        text-align: center;
+    }
+
+    .webappinfo-heading {
+        font-size: 38px;
+    }
+
+    .webappinfo-description {
+        font-size: 17px;
+        text-align: center;
+    }
+
+    .webappinfo-checklist {
+        align-items: flex-start;
+        width: 100%;
+        max-width: 420px;
+    }
+
+    .webappinfo-right {
+        order: 2;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .webappinfo-image {
+        max-width: 80%;
+    }
+}
+
+@media (max-width: 480px) {
+    .webappinfo-heading {
+        font-size: 32px;
+    }
+
+    .webappinfo-feature-text {
+        font-size: 16px;
+    }
+}
+
+.webappdetails-section {
+    background: #ffffff;
+    width: 100%;
+    padding: 50px 80px;
+}
+
+.webappdetails-container {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.webappdetails-main-heading {
+    font-size: 45px;
+    font-weight: 700;
+    color: black;
+    line-height: 1.15;
+    margin: 0 0 36px 0;
+    letter-spacing: -0.02em;
+    font-family: var(
+        --font-display,
+        "Inter",
+        -apple-system,
+        BlinkMacSystemFont,
+        sans-serif
+    );
+}
+
+.webappdetails-paragraph {
+    font-size: 14px;
+    line-height: 1.9;
+    color: black;
+    margin: 0 0 28px 0;
+    max-width: 900px;
+}
+
+.webappdetails-expertise-intro {
+    margin-bottom: 12px;
+}
+
+.webappdetails-list {
+    list-style: disc;
+    padding-left: 28px;
+    margin: 0 0 28px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.webappdetails-list-item {
+    font-size: 14px;
+    line-height: 1.7;
+    color: black;
+    padding-left: 6px;
+    opacity: 0;
+}
+
+.webappdetails-list-item::marker {
+    color: #9ac32d;
+    font-size: 18px;
+}
+
+.webappdetails-sub-heading {
+    font-size: 30px;
+    font-weight: 700;
+    color: black;
+    line-height: 1.2;
+    margin: 50px 0 20px 0;
+    letter-spacing: -0.01em;
+    font-family: var(
+        --font-display,
+        "Inter",
+        -apple-system,
+        BlinkMacSystemFont,
+        sans-serif
+    );
+}
+
+@media (max-width: 1024px) {
+    .webappdetails-main-heading {
+        font-size: 44px;
+    }
+
+    .webappdetails-sub-heading {
+        font-size: 28px;
+        margin-top: 40px;
+    }
+
+    .webappdetails-paragraph {
+        font-size: 18px;
+    }
+
+    .webappdetails-list-item {
+        font-size: 17px;
+    }
+}
+
+@media (max-width: 768px) {
+    .webappdetails-section {
+        padding: 64px 20px;
+    }
+
+    .webappdetails-main-heading {
+        font-size: 34px;
+        margin-bottom: 24px;
+    }
+
+    .webappdetails-sub-heading {
+        font-size: 24px;
+        margin-top: 36px;
+    }
+
+    .webappdetails-paragraph {
+        font-size: 16px;
+        line-height: 1.8;
+    }
+
+    .webappdetails-list {
+        padding-left: 20px;
+    }
+
+    .webappdetails-list-item {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    .webappdetails-main-heading {
+        font-size: 28px;
+    }
+
+    .webappdetails-sub-heading {
+        font-size: 22px;
+    }
+}
+
+@keyframes slideInFromLeft {
+    from {
+        opacity: 0;
+        transform: translateX(-48px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes slideInFromRight {
+    from {
+        opacity: 0;
+        transform: translateX(48px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes fadeUp {
+    from {
+        opacity: 0;
+        transform: translateY(36px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.anim-hidden {
+    opacity: 0;
+}
+
+.anim-slide-left {
+    animation: slideInFromLeft 0.7s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+.anim-slide-right {
+    animation: slideInFromRight 0.7s cubic-bezier(0.22, 1, 0.36, 1) 0.15s both;
+}
+
+.anim-fade-up {
+    animation: fadeUp 0.65s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+.anim-slide-left .webappinfo-checklist-item {
+    animation: slideInFromLeft 0.5s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+.anim-fade-up .webappdetails-list-item {
+    animation: fadeUp 0.5s cubic-bezier(0.22, 1, 0.36, 1) both;
+}

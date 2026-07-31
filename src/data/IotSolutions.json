@@ -1,0 +1,33 @@
+{
+    "iotSolutions": {
+        "headingPrefix": "IoT",
+        "headingHighlight": "Solutions",
+        "description": "At Microrage Solutions, we transform everyday objects into intelligent assets through robust Internet of Things (IoT) technologies. From smart devices to real-time data pipelines, we enable businesses to connect, monitor, and automate operations across industries unlocking new insights, efficiencies, and value.",
+        "image": {
+            "src": "iot.webp",
+            "alt": "IoT Solutions Banner Illustration"
+        },
+        "buttons": [
+            {
+                "label": "Case Studies",
+                "href": "/casestudy",
+                "variant": "dark"
+            },
+            {
+                "label": "Contact Us",
+                "href": "/contact",
+                "variant": "primary"
+            }
+        ]
+    },
+    "iotInfo": {
+        "heading": "Comprehensive IoT Services & Infrastructure",
+        "description": "Empower your business with connected device networks, real-time analytics dashboards, and edge intelligence built for scale, performance, and security.",
+        "features": [
+            { "id": 1, "title": "Smart Device & Hardware Integration", "imageName": "key_0.png" },
+            { "id": 2, "title": "Real-Time Telemetry & Data Pipelines", "imageName": "key_1.png" },
+            { "id": 3, "title": "Edge Computing & Gateway Architecture", "imageName": "key_2.png" },
+            { "id": 4, "title": "Industrial Automation & Monitoring", "imageName": "key_3.png" }
+        ]
+    }
+}
